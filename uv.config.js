@@ -1,10 +1,11 @@
-self.__uv$config = {
-    prefix: '/service/',
-    bare: 'https://incog.dev/bare/',
-    encodeUrl: Ultraviolet.codec.xor.encode,
-    decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv.handler.js',
-    bundle: '/uv.bundle.js',
-    config: '/uv.config.js',
-    sw: '/uv.sw.js',
-};
+{
+	"versions": [
+		"v1"
+	],
+	"language": "NodeJS",
+	"memoryUsage": 11.21,
+	"developer": {
+		"name": "TOMPHTTP NodeJS Bare Server",
+		"repository": "https://github.com/tomphttp/bare-server-node"
+	}
+}
